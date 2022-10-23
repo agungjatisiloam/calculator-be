@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 
 app.use(bodyParser.json())
 app.use(cors())
-
+let asaa = 'asaasa'
 app.post('/generate-segitiga', function (req, res) {    
     const num = req.body.number;
     let segitiga = ''
